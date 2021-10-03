@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollapsibleField component renders correctly when collapsed and is initially collapsed 1`] = `
+<View
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={undefined}
+    testID={undefined}
+  >
+    <View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <TextInput
+            clearButtonMode="while-editing"
+            editable={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onCollapse={[Function]}
+            onExpand={[Function]}
+            onFocus={[Function]}
+            placeholderTextColor="rgba(0, 0, 0, 0.38)"
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "color": "rgba(0, 0, 0, 0.87)",
+                "fontFamily": "Helvetica Neue",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "height": 28,
+                "lineHeight": 16,
+              }
+            }
+            value="header"
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "height": 1,
+            },
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "height": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        stlye={
+          Object {
+            "height": 20,
+          }
+        }
+      >
+        only visible if not collapsed
+      </Text>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DayBorder component renders a given date text and all children beneath that 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "height": 48,
+        "justifyContent": "center",
+        "marginLeft": 16,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "rgba(0, 0, 0, 0.54)",
+          "fontFamily": "Helvetica Neue",
+          "fontSize": 14,
+          "fontWeight": "500",
+        }
+      }
+    >
+      some date
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "shadowOffset": Object {
+            "height": 1.2,
+          },
+          "shadowOpacity": 0.183,
+          "shadowRadius": 1.08,
+        },
+        Object {
+          "backgroundColor": "white",
+        },
+      ]
+    }
+  >
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        Child 1
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.12)",
+              "height": 1,
+              "marginHorizontal": 0,
+            },
+            Object {
+              "height": 0.5,
+              "marginHorizontal": 8,
+            },
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        Child 2
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.12)",
+              "height": 1,
+              "marginHorizontal": 0,
+            },
+            Object {
+              "height": 0.5,
+              "marginHorizontal": 8,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

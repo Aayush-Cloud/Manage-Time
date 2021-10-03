@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimePickerCollapsible renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={undefined}
+    testID={undefined}
+  >
+    <View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <TextInput
+            clearButtonMode="while-editing"
+            editable={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onCollapse={[Function]}
+            onExpand={[Function]}
+            onFocus={[Function]}
+            placeholder="Some time"
+            placeholderTextColor="rgba(0, 0, 0, 0.38)"
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "color": "rgba(0, 0, 0, 0.87)",
+                "fontFamily": "Helvetica Neue",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "height": 28,
+                "lineHeight": 16,
+              }
+            }
+            value="1:00 AM - 1:00 AM"
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "height": 1,
+            },
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            },
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#ff1744",
+            "fontFamily": "Helvetica Neue",
+            "fontSize": 14,
+            "marginTop": 8,
+          }
+        }
+      >
+        endtime error
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "height": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <RCTDatePicker
+            date={1}
+            maximumDate={undefined}
+            minimumDate={undefined}
+            minuteInterval={5}
+            mode="time"
+            onChange={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "height": 216,
+              }
+            }
+            timeZoneOffsetInMinutes={undefined}
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "black",
+              "height": 2,
+              "width": 10,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <RCTDatePicker
+            date={2}
+            maximumDate={undefined}
+            minimumDate={undefined}
+            minuteInterval={5}
+            mode="time"
+            onChange={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "height": 216,
+              }
+            }
+            timeZoneOffsetInMinutes={undefined}
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

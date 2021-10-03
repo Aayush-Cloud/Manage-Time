@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textfield component renders correctly 1`] = `
+<View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <TextInput
+        clearButtonMode="while-editing"
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="rgba(0, 0, 0, 0.38)"
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "color": "rgba(0, 0, 0, 0.87)",
+            "fontFamily": "Helvetica Neue",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "height": 28,
+            "lineHeight": 16,
+          }
+        }
+        value="some value"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 1,
+        },
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.12)",
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Textfield component renders error messages correctly 1`] = `
+<View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <TextInput
+        clearButtonMode="while-editing"
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="rgba(0, 0, 0, 0.38)"
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "color": "rgba(0, 0, 0, 0.87)",
+            "fontFamily": "Helvetica Neue",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "height": 28,
+            "lineHeight": 16,
+          }
+        }
+        value="some value"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 1,
+        },
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.12)",
+        },
+      ]
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#ff1744",
+        "fontFamily": "Helvetica Neue",
+        "fontSize": 14,
+        "marginTop": 8,
+      }
+    }
+  >
+    an error message
+  </Text>
+</View>
+`;

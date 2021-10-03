@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseAppointment component renders correctly with optional props 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 72,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "width": 72,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+          "left": 16,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "textAlign": "center",
+            },
+            Object {
+              "color": "rgba(0, 0, 0, 0.54)",
+              "fontFamily": "Helvetica Neue",
+              "fontSize": 16,
+              "fontWeight": "400",
+            },
+          ]
+        }
+      >
+        0:00
+      </Text>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "rgba(0, 0, 0, 0.54)",
+            "height": 1.5,
+            "marginVertical": 4,
+            "width": 5,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "textAlign": "center",
+            },
+            Object {
+              "color": "rgba(0, 0, 0, 0.54)",
+              "fontFamily": "Helvetica Neue",
+              "fontSize": 16,
+              "fontWeight": "400",
+            },
+          ]
+        }
+      >
+        1:00
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#00796B",
+          "fontFamily": "Helvetica Neue",
+          "fontSize": 20,
+          "fontWeight": "400",
+        }
+      }
+    >
+      CourseAppointment name
+    </Text>
+    <View
+      style={
+        Object {
+          "marginTop": 6,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.54)",
+            "fontFamily": "Helvetica Neue",
+            "fontSize": 16,
+            "fontWeight": "400",
+          }
+        }
+      >
+        Test location, Lecture
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CourseAppointment component renders correctly without optional props 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 72,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "width": 72,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+          "left": 16,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "textAlign": "center",
+            },
+            Object {
+              "color": "rgba(0, 0, 0, 0.54)",
+              "fontFamily": "Helvetica Neue",
+              "fontSize": 16,
+              "fontWeight": "400",
+            },
+          ]
+        }
+      >
+        0:00
+      </Text>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "rgba(0, 0, 0, 0.54)",
+            "height": 1.5,
+            "marginVertical": 4,
+            "width": 5,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "textAlign": "center",
+            },
+            Object {
+              "color": "rgba(0, 0, 0, 0.54)",
+              "fontFamily": "Helvetica Neue",
+              "fontSize": 16,
+              "fontWeight": "400",
+            },
+          ]
+        }
+      >
+        1:00
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#00796B",
+          "fontFamily": "Helvetica Neue",
+          "fontSize": 20,
+          "fontWeight": "400",
+        }
+      }
+    >
+      CourseAppointment name
+    </Text>
+  </View>
+</View>
+`;

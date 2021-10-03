@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimetableDay renders a CourseAppointment for each element of props.appointmentsOfDay 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "height": 48,
+        "justifyContent": "center",
+        "marginLeft": 16,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "rgba(0, 0, 0, 0.54)",
+          "fontFamily": "Helvetica Neue",
+          "fontSize": 14,
+          "fontWeight": "500",
+        }
+      }
+    >
+      mon
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "shadowOffset": Object {
+            "height": 1.2,
+          },
+          "shadowOpacity": 0.183,
+          "shadowRadius": 1.08,
+        },
+        Object {
+          "backgroundColor": "white",
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 72,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "justifyContent": "center",
+              "width": 72,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "justifyContent": "center",
+                "left": 16,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.54)",
+                    "fontFamily": "Helvetica Neue",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                  },
+                ]
+              }
+            >
+              0:00
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgba(0, 0, 0, 0.54)",
+                  "height": 1.5,
+                  "marginVertical": 4,
+                  "width": 5,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.54)",
+                    "fontFamily": "Helvetica Neue",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                  },
+                ]
+              }
+            >
+              1:00
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#00796B",
+                "fontFamily": "Helvetica Neue",
+                "fontSize": 20,
+                "fontWeight": "400",
+              }
+            }
+          >
+            A course
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.12)",
+              "height": 1,
+              "marginHorizontal": 0,
+            },
+            Object {
+              "height": 0.5,
+              "marginHorizontal": 8,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 72,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "justifyContent": "center",
+              "width": 72,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "justifyContent": "center",
+                "left": 16,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.54)",
+                    "fontFamily": "Helvetica Neue",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                  },
+                ]
+              }
+            >
+              1:00
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgba(0, 0, 0, 0.54)",
+                  "height": 1.5,
+                  "marginVertical": 4,
+                  "width": 5,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.54)",
+                    "fontFamily": "Helvetica Neue",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                  },
+                ]
+              }
+            >
+              2:00
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#00796B",
+                "fontFamily": "Helvetica Neue",
+                "fontSize": 20,
+                "fontWeight": "400",
+              }
+            }
+          >
+            Another course
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.12)",
+              "height": 1,
+              "marginHorizontal": 0,
+            },
+            Object {
+              "height": 0.5,
+              "marginHorizontal": 8,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
