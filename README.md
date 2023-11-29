@@ -38,6 +38,4 @@ Translations are provided in `/src/i18n`.
 In case a translation is not given for some language, english is taken as a fallback.  
 To add translations, `english.json` should be taken as reference. 
 
-## License
 
-MIT
